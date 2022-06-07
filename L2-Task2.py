@@ -2,7 +2,13 @@
 # Значениями обмениваются элементы с индексами 0 и 1, 2 и 3 и т. д.
 # При нечётном количестве элементов последний сохранить на своём месте.
 # Для заполнения списка элементов нужно использовать функцию input().
-my_list = list(input('Введите список: '))
+my_list = input('Введите список: ').split()
 print('Список ', my_list, '; Элементов: ', len(my_list))
-for list_item in my_list:
-    print(list_item)
+idx = 0
+list_item = ''
+while len(my_list) != idx + 1:
+    list_item = my_list[idx]
+    my_list[idx] = my_list[idx + 1]
+    my_list[idx + 1] = list_item
+    idx += 2
+print('Получили ', my_list)
