@@ -1,0 +1,11 @@
+Alfa 22000.50
+Bravo 11700.40
+Charlie 33800.70
+Delta 14700.20
+Echo 16900.25
+Foxtrot 10300.30
+Golf 25760.10
+Hotel 54688.23
+India 42398.21
+Juliett 13423.33
+Kilo 90000.24
